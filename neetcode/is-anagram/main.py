@@ -5,7 +5,7 @@ class Solution:
         s_sortd = sorted(s)
         t_sortd = sorted(t)
         for i in range(len(s)):
-            if s[i] != t[i]:
+            if s_sortd[i] != t_sortd[i]:
                 return False
         return True
 
