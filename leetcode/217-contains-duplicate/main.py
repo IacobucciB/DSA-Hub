@@ -6,10 +6,6 @@ class Solution:
                 return True
         return False
 
-
-
-print("Neetcode - Duplicate Integer")
-
 sol = Solution()
 nums = [1, 2, 3, 3]
 res = sol.hasDuplicate(nums)
