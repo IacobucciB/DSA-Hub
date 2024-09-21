@@ -2,14 +2,15 @@
 # @param {Integer} target
 # @return {Integer[]}
 def two_sum(nums, target)
-  for i in 0..nums.length
-    for j in i+1..(nums.length-1)
-      if (nums[i] + nums[j]) == target
-        return [i, j]
-      end
+  seen = {}
+  nums.each_with_index do |num, i|
+    complement = target - num
+    if seen.key?(complement)
+      return [seen[complement], i]
     end
+    seen[num] = i
   end
-  return []
+  return nil
 end
 
 puts "001-two-sum"
