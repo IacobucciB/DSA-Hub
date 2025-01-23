@@ -1,6 +1,8 @@
 #include <iostream>
 #include <climits>
 
+using namespace std;
+
 class Solution {
 public:
     bool isPalindrome(int x) {
@@ -19,6 +21,6 @@ public:
 int main() {
     Solution solution;
     int testNumber = 121;
-    std::cout << "Is " << testNumber << " a palindrome? " << (solution.isPalindrome(testNumber) ? "Yes" : "No") << std::endl;
+    cout << "Is " << testNumber << " a palindrome? " << (solution.isPalindrome(testNumber) ? "Yes" : "No") << endl;
     return 0;
 }
