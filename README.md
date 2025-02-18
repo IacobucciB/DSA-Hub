@@ -1,6 +1,8 @@
 # DSA-Hub
 This repository serves as a personal log of my progress in solving programming challenges.
+
 ## Neetcode -> LeetCode
+
 Arrays & Hashing
 - [x] 217. Contains Duplicate
 - [x] 242. Valid Anagram
@@ -11,8 +13,8 @@ Arrays & Hashing
 - [ ] 238. Product of Array Except Self
 - [ ] 36. Valid Sudoku
 - [ ] 128. Longest Consecutive Sequence
-Stacks
-From: Arrays & Hashing
+
+Stacks - From: Arrays & Hashing
 - [x] 20. Valid Parentheses
 - [ ] 155. Min Stack
 - [ ] 150. Evaluate Reverse Polish Notation
@@ -20,31 +22,31 @@ From: Arrays & Hashing
 - [ ] 739. Daily Temperatures
 - [ ] 853. Car Fleet
 - [ ] 84. Largest Rectangle in Histogram
-Two Pointers
-From: Arrays & Hashing
+
+Two Pointers - From: Arrays & Hashing
 - [ ] 125. Valid Palindrome
 - [ ] 167. Two Sum II - Input Array Is Sorted
 - [ ] 15. 3Sum
 - [ ] 11. Container With Most Water
 - [ ] 42. Trapping Rain Water
-Binary Search
-From: Two Pointers
+
+Binary Search - From: Two Pointers
 - [ ] 704. Binary Search
 - [ ] 74. Search a 2D Matrix
 - [ ] 875. Koko Eating Bananas
 - [ ] 153. Find Minimum in Rotated Sorted Array
 - [ ] 981. Time Based Key-Value Store
 - [ ] 4. Median of Two Sorted Arrays
-Sliding Window
-From: Two Pointers
+
+Sliding Window - From: Two Pointers
 - [ ] 121. Best Time to Buy and Sell Stock
 - [ ] 3. Longest Substring Without Repeating Characters
 - [ ] 424. Longest Repeating Character Replacement
 - [ ] 567. Permutation in String
 - [ ] 76. Minimum Window Substring
 - [ ] 239. Sliding Window Maximum
-Linked List
-From: Two Pointers
+
+Linked List - From: Two Pointers
 - [ ] 206. Reverse Linked List
 - [ ] 21. Merge Two Sorted Lists
 - [ ] 141. Linked List Cycle
