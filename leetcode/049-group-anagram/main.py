@@ -10,19 +10,23 @@ class Solution:
         return True
 
     def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
-        
-        tags_count = len(strs)
-        
-        l = []
-        
-        l.append(strs[1])
-        strs[1] = '#'
-        tags_count--
-        
-        while tags_count > 0:
-            for i in range(len(strs)):
-                pass
 
-        pass
+        res = {}
+
+        for word in strs:
+            aux = ''.join(sorted(word))
+
+            if aux not in res:
+                res[aux] = []
+
+            res[aux].append(word) 
+        
+        return list(res.values())
+
+sol = Solution()
 
 strs = ["eat","tea","tan","ate","nat","bat"]
+
+r = sol.groupAnagrams(strs)
+
+print(r)
