@@ -8,7 +8,7 @@ Arrays & Hashing
 - [x] 242. Valid Anagram
 - [x] 1. Two Sum
 - [x] 49. Group Anagrams
-- [ ] 347. Top K Frequent Elements
+- [x] 347. Top K Frequent Elements
 - [ ] 271. Encode and Decode Strings 🔒
 - [ ] 238. Product of Array Except Self
 - [ ] 36. Valid Sudoku
