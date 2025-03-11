@@ -11,7 +11,6 @@ for i in range(len(split) - window):
     aux = 1
     for j in range(window):
         aux = aux * split[i+j]
-    if aux > max_product:
-        max_product = aux
+    max_product = max(max_product, aux)
 
 print(max_product)
